@@ -13,7 +13,7 @@ export default function Home() {
       </div>
 
       <NavLink className="btn-back" to="/">
-        Back
+        Backs
       </NavLink>
     </div>
   );
