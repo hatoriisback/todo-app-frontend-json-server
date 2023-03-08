@@ -37,6 +37,19 @@ a:hover {
   color: greenyellow;
 }
 
+h2 {
+  color: greenyellow;
+}
+
+.btn-back {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-back:hover {
+  color: black;
+}
+
 .wrapper h1 {
   color: greenyellow;
 }
@@ -65,4 +78,8 @@ a:hover {
   border-radius: 5px;
   box-sizing: border-box;
   box-shadow: 0 3px 5px green;
+}
+
+.list-group-item {
+  color: black;
 }

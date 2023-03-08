@@ -1,0 +1,29 @@
+{
+    "todoList": [{
+            "id": 1,
+            "task": "Belajar React",
+            "status": true
+        },
+        {
+            "id": 2,
+            "task": "Belajar Express JS",
+            "status": true
+        },
+        {
+            "id": 3,
+            "task": "Belajar Sequelize + PostgreSQL",
+            "status": true
+        },
+        {
+            "id": 4,
+            "task": "Belajar Fecthing API",
+            "status": true
+        },
+        {
+            "id": 5,
+            "task": "Belajar CRUD",
+            "status": true
+        }
+
+    ]
+}

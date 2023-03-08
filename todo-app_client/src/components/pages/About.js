@@ -10,7 +10,9 @@ export default function About() {
       <Heading title="About Me" name="Hendy" desc="Let's make something!" />
       <div className="aboutme">
         <h1>About Me</h1>
+        <hr style={{ backgroundColor: "orange" }} />
       </div>
+      <br />
       <NavLink className="btn-back" to="/">
         Back
       </NavLink>

@@ -10,8 +10,9 @@ export default function Home() {
       <Heading title="Home" name="Hendy" desc="Let's make something!" />
       <div className="home">
         <h1>Home</h1>
+        <hr style={{ backgroundColor: "orange" }} />
       </div>
-
+      <br />
       <NavLink className="btn-back" to="/">
         Back
       </NavLink>
