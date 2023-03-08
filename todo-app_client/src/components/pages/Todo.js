@@ -1,4 +1,7 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+
+// Sections
 import Heading from "../sections/Heading";
 
 export default function Todo() {
@@ -8,6 +11,9 @@ export default function Todo() {
       <div className="todoapp">
         <h1>Todo App</h1>
       </div>
+      <NavLink className="btn-back" to="/">
+        Back
+      </NavLink>
     </div>
   );
 }

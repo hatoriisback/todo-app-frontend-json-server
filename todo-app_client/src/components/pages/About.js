@@ -1,4 +1,7 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+
+// Sections
 import Heading from "../sections/Heading";
 
 export default function About() {
@@ -8,6 +11,9 @@ export default function About() {
       <div className="aboutme">
         <h1>About Me</h1>
       </div>
+      <NavLink className="btn-back" to="/">
+        Back
+      </NavLink>
     </div>
   );
 }

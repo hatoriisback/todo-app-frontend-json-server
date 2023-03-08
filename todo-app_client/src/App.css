@@ -49,3 +49,20 @@ a:hover {
     transform: rotate(360deg);
   }
 }
+
+.btn-back {
+  background-color: #61dafb;
+  border: 3px 2px solid black;
+
+  min-height: 3ch;
+  min-width: 10ch;
+  padding: 0;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 3px 5px green;
+}
