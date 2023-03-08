@@ -9,7 +9,7 @@ export default function Home() {
     <div className="wrapper wrapper-home">
       <Heading title="Home" name="Hendy" desc="Let's make something!" />
       <div className="home">
-        <h1>Home</h1>
+        <h1>Homes</h1>
       </div>
 
       <NavLink className="btn-back" to="/">
