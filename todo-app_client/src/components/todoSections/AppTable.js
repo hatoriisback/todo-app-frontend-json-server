@@ -28,9 +28,9 @@ export default function AppTable(props) {
   return (
     <div className="app-TableTask">
       <h2>Todo List</h2>
-      <table className="app-table" style={{ textAlign: "left" }}>
+      <table className="app-table" style={{ textAlign: "center" }}>
         <thead>
-          <tr>
+          <tr style={{ textAlign: "left" }}>
             <th className="col-3">ID</th>
             <th className="col-5">Task</th>
             <th className="col-5">Status</th>
@@ -40,7 +40,7 @@ export default function AppTable(props) {
           {/* Mapping Todo */}
           {todos.map((todo) => {
             return (
-              <tr key={todo.id}>
+              <tr style={{ textAlign: "left" }} key={todo.id}>
                 <th className="col-2">{todo.id}</th>
                 <td className="col-5">{todo.task}</td>
                 <td className="col-5">{todo.status ? "Done" : "In Progress"}</td>
